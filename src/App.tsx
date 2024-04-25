@@ -25,9 +25,30 @@ const AppContainer = styled.div`
   max-width: 900px;
   margin: 0 auto;
 `;
+function handleClick(){
+    alert('hello ')
+    // 创建 <script> 元素
+  const scriptElement = document.createElement('script');
+  scriptElement.src = 'https://telegram.org/js/telegram-widget.js?14';
+  scriptElement.async = true;
+  scriptElement.setAttribute('data-telegram-login', 'lifetifulBot');
+  scriptElement.setAttribute('data-size', 'large');
+  scriptElement.setAttribute('data-onauth', 'onTelegramAuth(user)');
+  scriptElement.setAttribute('data-request-access', 'write');
 
+  // 将 <script> 元素添加到文档的 <body> 元素中
+  document.body.appendChild(scriptElement);
+
+    // <script async src="https://telegram.org/js/telegram-widget.js?14"
+    // data-telegram-login="lifetifulBot"
+    // data-size="large"
+    // data-onauth="onTelegramAuth(user)"
+    // data-request-access="write">
+    // </script>
+}
 function App() {
   const { network } = useTonConnect();
+
 
   return (
     <StyledApp>
@@ -36,11 +57,14 @@ function App() {
           <FlexBoxRow>
             <TonConnectButton />
             <Button>
-              {network
+              {network 
                 ? network === CHAIN.MAINNET
                   ? "mainnet"
                   : "testnet"
                 : "N/A"}
+            </Button>
+            <Button onClick={handleClick}>
+             Login with Telegram
             </Button>
           </FlexBoxRow>
           <Counter />
