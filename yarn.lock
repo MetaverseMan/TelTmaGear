@@ -433,21 +433,21 @@
 
 "@tonconnect/isomorphic-eventsource@^0.0.1":
   version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@tonconnect/isomorphic-eventsource/-/isomorphic-eventsource-0.0.1.tgz#199e5a86c31dad706b79826f65879e0d77d3dd51"
+  resolved "https://registry.npmjs.org/@tonconnect/isomorphic-eventsource/-/isomorphic-eventsource-0.0.1.tgz"
   integrity sha512-ODk48pMlqLSOvu3fM0R1sdlz/Cv2y4hSfwtXmLq9ky9+H7ZQfw/16ElpIJ69B4lUvHycxrueNgrRtF9PJHoGMw==
   dependencies:
     eventsource "^2.0.2"
 
 "@tonconnect/isomorphic-fetch@^0.0.2":
   version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@tonconnect/isomorphic-fetch/-/isomorphic-fetch-0.0.2.tgz#c09ff05a409ec89262c369d4bf27305820cdaa33"
+  resolved "https://registry.npmjs.org/@tonconnect/isomorphic-fetch/-/isomorphic-fetch-0.0.2.tgz"
   integrity sha512-DAyA4oL7MqbBo9k8+8E+YiWsGCYi6UMhDTcsZjhgzhESkBNG6b+NBkpb1KH4oi0xDZQoknFtY9XogJLuQtSMQQ==
   dependencies:
     node-fetch "^2.6.9"
 
 "@tonconnect/protocol@^2.2.5":
   version "2.2.5"
-  resolved "https://registry.yarnpkg.com/@tonconnect/protocol/-/protocol-2.2.5.tgz#15369801708354821295a6d284f0267799ac48cc"
+  resolved "https://registry.npmjs.org/@tonconnect/protocol/-/protocol-2.2.5.tgz"
   integrity sha512-kR0E+CWZl6JrE/30283v+sRiAvEu21t1xOLFx6f/BxlCNLY2wki39+L32+iicX8gn/Ig99L1flr9TAI9QW9bnQ==
   dependencies:
     tweetnacl "^1.0.3"
@@ -455,7 +455,7 @@
 
 "@tonconnect/sdk@^3.0.0-beta.1":
   version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tonconnect/sdk/-/sdk-3.0.0-beta.1.tgz#522d88409dd8ae9b3aa2eabfddfd3cee28bdb514"
+  resolved "https://registry.npmjs.org/@tonconnect/sdk/-/sdk-3.0.0-beta.1.tgz"
   integrity sha512-YcTO3USLNblaB+ClPFcQ8LwR68GaZ78kFbxBLANi6tvRORP0d0aSSjTODRs0lDOfVN0gkLCwo+7JxrRBoF/20w==
   dependencies:
     "@tonconnect/isomorphic-eventsource" "^0.0.1"
@@ -464,14 +464,14 @@
 
 "@tonconnect/ui-react@^2.0.0-beta.2":
   version "2.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@tonconnect/ui-react/-/ui-react-2.0.0-beta.2.tgz#3251334c556686147e6635bc00a952c2a508a136"
+  resolved "https://registry.npmjs.org/@tonconnect/ui-react/-/ui-react-2.0.0-beta.2.tgz"
   integrity sha512-h3n8dg2BilyegmGh0cdcoX/e/zaYg0NTJ8U/s6ZloXz47fqLNLk5wjtDqInxLM8zDuMOyuLnx1clN4uGT4P23g==
   dependencies:
     "@tonconnect/ui" "^2.0.0-beta.2"
 
 "@tonconnect/ui@^2.0.0-beta.2":
   version "2.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@tonconnect/ui/-/ui-2.0.0-beta.2.tgz#36ed411dfe109e090dbf2f83d3e6c2bd34e88a8c"
+  resolved "https://registry.npmjs.org/@tonconnect/ui/-/ui-2.0.0-beta.2.tgz"
   integrity sha512-oVaJ/o8+inYNDA4Jq1WbZm8mdexyW+FjSBnYKQhqneH883HeLpiIA63dmbIWMiHAbkY8S6uRO9ffKPUjEWzGjw==
   dependencies:
     "@tonconnect/sdk" "^3.0.0-beta.1"
@@ -1252,7 +1252,7 @@ lodash@^4.17.11:
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
-loose-envify@^1.1.0:
+loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -1319,7 +1319,7 @@ node-fetch@^2.6.1:
 
 node-fetch@^2.6.9:
   version "2.7.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.7.0.tgz#d0f0fa6e3e2dc1d27efcd8ad99d550bda94d187d"
+  resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz"
   integrity sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==
   dependencies:
     whatwg-url "^5.0.0"
@@ -1361,6 +1361,11 @@ node-stdlib-browser@^1.2.0:
     url "^0.11.0"
     util "^0.12.4"
     vm-browserify "^1.0.1"
+
+object-assign@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
+  integrity sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==
 
 object-is@^1.0.1:
   version "1.1.5"
@@ -1472,6 +1477,15 @@ process@^0.11.10:
   resolved "https://registry.npmjs.org/process/-/process-0.11.10.tgz"
   integrity sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==
 
+prop-types@^15.6.2:
+  version "15.8.1"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
+  integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.13.1"
+
 public-encrypt@^4.0.0:
   version "4.0.3"
   resolved "https://registry.npmjs.org/public-encrypt/-/public-encrypt-4.0.3.tgz"
@@ -1527,7 +1541,7 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-is@^16.7.0:
+react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
@@ -1536,6 +1550,22 @@ react-refresh@^0.14.0:
   version "0.14.0"
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.14.0.tgz"
   integrity sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==
+
+react-telegram-login@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/react-telegram-login/-/react-telegram-login-1.1.2.tgz#28b9bdd68bb2710afca19354ac1f9428092836f0"
+  integrity sha512-pDP+bvfaklWgnK5O6yvZnIwgky0nnYUU6Zhk0EjdMSkPsLQoOzZRsXIoZnbxyBXhi7346bsxMH+EwwJPTxClDw==
+  dependencies:
+    react "^16.13.1"
+
+react@^16.13.1:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
 
 react@^18.2.0:
   version "18.2.0"
@@ -1760,7 +1790,7 @@ typescript@^4.9.5:
 
 ua-parser-js@^1.0.35:
   version "1.0.36"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-1.0.36.tgz#a9ab6b9bd3a8efb90bb0816674b412717b7c428c"
+  resolved "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-1.0.36.tgz"
   integrity sha512-znuyCIXzl8ciS3+y3fHJI/2OhQIXbXw9MWC/o3qwyR+RGppjZHrM27CGFSKCJXi2Kctiz537iOu2KnXs1lMQhw==
 
 update-browserslist-db@^1.0.10:
