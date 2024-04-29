@@ -10,11 +10,12 @@ import { CHAIN } from "@tonconnect/protocol";
 import "@twa-dev/sdk";
 import TelegramLoginButton from 'react-telegram-login';
 import React, { useEffect } from 'react';
+import ComingSoon from "./components/ComingSoon/comingsoon";
+import { flexible } from 'amfe-flexible';
+
 
 
 export const TelegramLogin = () => {
-  alert("登陆TG尝试ing")
-  console.log("登陆TG尝试ing ...")
   const handleTelegramResponse = (response: { first_name: any; last_name: any; id: any; username: string; }) => {
     // 处理Telegram登录回调的逻辑
     alert(
@@ -120,29 +121,31 @@ function App() {
 
   return (
     <StyledApp>
-      <AppContainer>
-        <FlexBoxCol>
-          <FlexBoxRow>
-            <TonConnectButton />
-            <TelegramLogin />
-            <Button>
+      {/* <AppContainer> */}
+        {/* <FlexBoxCol> */}
+          {/* <FlexBoxRow> */}
+            {/* <TonConnectButton /> */}
+            {/* <TelegramLogin /> */}
+            {/* <Button>
               {network 
                 ? network === CHAIN.MAINNET
                   ? "mainnet"
                   : "testnet"
                 : "N/A"}
-            </Button>
-            <Button onClick={TelegramLogin}>
+            </Button> */}
+            {/* <Button onClick={TelegramLogin}>
              Login with Telegram
-            </Button>
-            
-          </FlexBoxRow>
-          <Counter />
-          <TransferTon />
-          <Jetton />
-        </FlexBoxCol>
-      </AppContainer>
+            </Button> */}
+       
+          {/* </FlexBoxRow> */}
+          {/* <Counter />
+          <TransferTon /> */}
+          {/* <Jetton /> */}
+        {/* </FlexBoxCol> */}
+        <ComingSoon />
+      {/* </AppContainer> */}
     </StyledApp>
+
   );
 }
 

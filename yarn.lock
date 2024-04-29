@@ -431,6 +431,11 @@
     "@tanstack/query-core" "4.24.4"
     use-sync-external-store "^1.2.0"
 
+"@ton/sandbox@^0.19.0":
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/@ton/sandbox/-/sandbox-0.19.0.tgz#450c46b1c2301c7afefc9ae248872bba6a845a8e"
+  integrity sha512-ARSZg9Hic0UgWl2fA11PokeVFsHFaxh7tQA1KTCLpthx0QJNaFqRsxeeNNw2ICmZovB3JVWSCwYQkkd/4kVeow==
+
 "@tonconnect/isomorphic-eventsource@^0.0.1":
   version "0.0.1"
   resolved "https://registry.npmjs.org/@tonconnect/isomorphic-eventsource/-/isomorphic-eventsource-0.0.1.tgz"
@@ -554,6 +559,11 @@
     "@babel/plugin-transform-react-jsx-source" "^7.19.6"
     magic-string "^0.27.0"
     react-refresh "^0.14.0"
+
+amfe-flexible@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/amfe-flexible/-/amfe-flexible-2.2.1.tgz#353f00289e4d38ca88a21eb3854420308af0b559"
+  integrity sha512-L2VfvDzoETBjhRptg5u/IUuzHSuxm22JpSRb404p/TBGeRfwWmmNEbB+TFPIP/sS/+pbM18bCFH9QnMojLuPNw==
 
 ansi-styles@^3.2.1:
   version "3.2.1"
@@ -768,6 +778,11 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
+
+classname@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/classname/-/classname-0.0.0.tgz#43d171b484e354c7a293a5b78004df6852db20d6"
+  integrity sha512-kkhsspEJdUW+VhuvNzb2sQf0KbafDPfd36dB1qf03Uu42dWZwMQzaQuyNkaRr5ir0ZiAN0+TlH/EOOfwb/aaXg==
 
 classnames@^2.3.2:
   version "2.3.2"

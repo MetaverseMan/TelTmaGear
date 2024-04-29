@@ -12,9 +12,12 @@
   "dependencies": {
     "@orbs-network/ton-access": "^2.2.2",
     "@tanstack/react-query": "^4.24.4",
+    "@ton/sandbox": "^0.19.0",
     "@tonconnect/ui-react": "^2.0.0-beta.2",
     "@twa-dev/sdk": "^6.4.2",
+    "amfe-flexible": "^2.2.1",
     "buffer": "^6.0.3",
+    "classname": "^0.0.0",
     "is-mobile": "^3.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

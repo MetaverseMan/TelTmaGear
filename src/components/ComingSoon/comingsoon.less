@@ -1,0 +1,22 @@
+.coming-soon {
+    position: fixed;
+    top: 0;
+    left: 0;
+  //   width: 100%;
+  //   height: 100%;
+    width: 100vw; /* 使用视口宽度作为宽度单位 */
+    height: 100vh; /* 使用视口高度作为高度单位 */
+    z-index: -1;
+    .full-screen-image {
+        width: auto;
+        height: auto;
+
+      img {
+        width: auto;
+        height: auto;
+        // object-fit: contain; // 自适应尺寸并保持纵横比
+        object-fit: cover; // 保持图片比例并覆盖整个区域
+        // object-position: center;
+      }
+    }
+  }
